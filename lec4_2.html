@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: pink;
+        }
+
+        p::first-letter {
+            font-weight: bolder;
+            font-size: 50px;
+            color: black;
+        }
+
+        p::first-line {
+            color: aqua;
+            text-transform: uppercase;
+        }
+
+        p::before {
+            content: "***";
+            color: green;
+        }
+
+        p::after {
+            content: "###";
+            color: red;
+        }
+
+        li::marker {
+            color: blue;
+        }
+
+        h1::selection {
+            background-color: blueviolet;
+            color: green;
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, rerum! Blanditiis voluptatum,
+        similique quae consectetur porro velit quibusdam nihil hic nam provident tenetur maiores, maxime dignissimos
+        quod voluptatibus sed rerum.</p>
+    <ul type="square">
+        <li>hii</li>
+        <li>good morning</li>
+    </ul>
+    <h1>Heading 1</h1>
+</body>
+
+</html>
