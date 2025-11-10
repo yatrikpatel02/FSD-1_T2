@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            text-align: center;
+            margin: 10px;
+            height: 200px;
+            width: 200px;
+            background-color: pink;
+
+        }
+
+        .a:hover {
+            background-image: linear-gradient(red, yellow, blue);
+        }
+
+        .b:hover {
+            background-image: linear-gradient(to bottom, red, yellow, blue);
+        }
+
+        .c:hover {
+            background-image: linear-gradient(to top, red, yellow, blue);
+        }
+
+        .d:hover {
+            background-image: linear-gradient(to right, red, yellow, blue);
+        }
+
+        .e:hover {
+            background-image: linear-gradient(to left, red, yellow, blue);
+        }
+
+        .f:hover {
+            background-image: linear-gradient(90deg, red, yellow, blue);
+        }
+
+        .g:hover {
+            background-image: linear-gradient(-45deg, red, yellow, blue);
+        }
+
+        .h:hover {
+            background-image: linear-gradient(blue 20%, green 30%, red 50%);
+        }
+
+        .i:hover {
+            background-image: linear-gradient(red 25%, blue 25%, green 60%);
+        }
+
+        .j:hover {
+            background-image: radial-gradient(circle, blue, yellow, green);
+        }
+
+        .k:hover {
+            height: 200px;
+            width: 300px;
+            background-image: radial-gradient(ellipse, blue, yellow, green);
+        }
+
+        .l:hover {
+            width: 300px;
+            background-image: linear-gradient(to right, indigo, blue, green, yellow, orange, red);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        .m:hover {
+            width: 300px;
+            background-image: linear-gradient(to right, indigo, blue, green, yellow, orange, red);
+            color: white;
+        }
+
+        .n:hover {
+            background-image: conic-gradient(red 45deg, yellow 90deg, green 180deg);
+        }
+
+        .o:hover {
+            background-image: conic-gradient(red 0deg 90deg, yellow 90deg 180deg, blue 180deg 270deg, purple 270deg 360deg);
+        }
+
+        .p:hover {
+            border-radius: 50%;
+            background-image: conic-gradient(red, yellow, blue, purple);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a">
+        default
+    </div>
+    <div class="b">
+        top to bottom
+    </div>
+    <div class="c">
+        bottom to top
+    </div>
+    <div class="d">
+        left to right
+    </div>
+    <div class="e">
+        right to left
+    </div>
+    <div class="f">
+        90deg
+    </div>
+    <div class="g">
+        -45deg
+    </div>
+    <div class="h">
+        red 50%, blue 30%, green 20%
+    </div>
+    <div class="i">
+        red 25%, blue 25%, green 50%
+    </div>
+    <div class="j">
+        circle blue yellow green
+    </div>
+    <div class="k">
+        ellipse blue yellow green
+    </div>
+    <div class="l">
+        rainbow text
+    </div>
+    <div class="m">
+        rainbow background
+    </div>
+    <div class="n">
+        conic-gradient
+    </div>
+    <div class="o">
+        conic red 0deg 90deg, yellow 90deg 180deg, blue 180deg 270deg, purple 270deg 360deg
+    </div>
+    <div class="p">
+        pie chart
+    </div>
+</body>
+
+</html>

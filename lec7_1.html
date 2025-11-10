@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            margin: 15px;
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            animation: demo 5s linear 1s infinite normal;
+        }
+
+        @keyframes demo {
+            0% {
+                background-color: red;
+                height: 100px;
+                width: 100px;
+                top: 0%;
+                left: 0%;
+            }
+
+            25% {
+                background-color: green;
+                transform: scaley(1.2);
+                top: 0%;
+                left: 25%;
+            }
+
+            50% {
+                background-color: aqua;
+                transform: scaley(1);
+                top: 0%;
+                left: 50%;
+            }
+
+            75% {
+                background-color: blue;
+                transform: scaleX(1.2);
+                top: 0%;
+                left: 75%;
+            }
+
+            100% {
+                background-color: pink;
+                transform: scaleX(1);
+                top: 0%;
+                left: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+    </div>
+</body>
+
+</html>
